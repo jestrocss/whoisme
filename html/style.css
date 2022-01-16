@@ -1,0 +1,23 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-head {
+  z-index: 10000;
+}
+
+.hero-head .navbar {
+  border-bottom: 1px hsl(0, 0%, 75%);
+}
+
+::selection {
+  color: #abcdef;
+}
